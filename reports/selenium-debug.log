@@ -1,0 +1,41 @@
+14:13:05.082 INFO - Launching a standalone Selenium Server
+14:13:05.142 INFO - Java: Oracle Corporation 24.0-b56
+14:13:05.142 INFO - OS: Windows 7 6.1 x86
+14:13:05.152 INFO - v2.53.1, with Core v2.53.1. Built from revision a36b8b1
+14:13:05.202 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+14:13:05.202 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+14:13:05.212 INFO - Driver provider org.openqa.selenium.safari.SafariDriver registration is skipped:
+registration capabilities Capabilities [{platform=MAC, browserName=safari, version=}] does not match the current platform VISTA
+14:13:05.212 INFO - Driver class not found: org.openqa.selenium.htmlunit.HtmlUnitDriver
+14:13:05.212 INFO - Driver provider org.openqa.selenium.htmlunit.HtmlUnitDriver is not registered
+14:13:05.262 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+14:13:05.262 INFO - Selenium Server is up and running
+14:13:05.552 INFO - Executing: [new session: Capabilities [{platform=ANY, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, name=Google Spec, marionette=true}]])
+14:13:05.572 INFO - Creating a new session for Capabilities [{platform=ANY, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, name=Google Spec, marionette=true}]
+Starting ChromeDriver 2.26.436362 (5476ec6bf7ccbada1734a0cdec7d570bb042aa30) on port 27174
+Only local connections are allowed.
+14:13:07.985 INFO - Done: [new session: Capabilities [{platform=ANY, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, name=Google Spec, marionette=true}]]
+14:13:07.995 INFO - Executing: [get: http://www.google.com])
+14:13:08.762 INFO - Done: [get: http://www.google.com]
+14:13:08.776 INFO - Executing: [find elements: By.cssSelector: body])
+14:13:08.819 INFO - Done: [find elements: By.cssSelector: body]
+14:13:08.822 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on XP (4667046a957e1e6a94b9d07f09cacc93)] -> css selector: body]])
+14:13:08.853 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on XP (4667046a957e1e6a94b9d07f09cacc93)] -> css selector: body]]
+14:13:08.862 INFO - Executing: [find element: By.cssSelector: input[type=text]])
+14:13:08.909 INFO - Done: [find element: By.cssSelector: input[type=text]]
+14:13:08.913 INFO - Executing: [send keys: 1 [[ChromeDriver: chrome on XP (4667046a957e1e6a94b9d07f09cacc93)] -> css selector: input[type=text]], [n, i, g, h, t, w, a, t, c, h]])
+14:13:08.975 INFO - Done: [send keys: 1 [[ChromeDriver: chrome on XP (4667046a957e1e6a94b9d07f09cacc93)] -> css selector: input[type=text]], [n, i, g, h, t, w, a, t, c, h]]
+14:13:08.984 INFO - Executing: [find elements: By.cssSelector: button[name=btnG]])
+14:13:09.017 INFO - Done: [find elements: By.cssSelector: button[name=btnG]]
+14:13:09.023 INFO - Executing: [is displayed: 2 [[ChromeDriver: chrome on XP (4667046a957e1e6a94b9d07f09cacc93)] -> css selector: button[name=btnG]]])
+14:13:09.042 INFO - Done: [is displayed: 2 [[ChromeDriver: chrome on XP (4667046a957e1e6a94b9d07f09cacc93)] -> css selector: button[name=btnG]]]
+14:13:09.045 INFO - Executing: [find element: By.cssSelector: button[name=btnG]])
+14:13:09.082 INFO - Done: [find element: By.cssSelector: button[name=btnG]]
+14:13:09.085 INFO - Executing: [click: 2 [[ChromeDriver: chrome on XP (4667046a957e1e6a94b9d07f09cacc93)] -> css selector: button[name=btnG]]])
+14:13:09.162 INFO - Done: [click: 2 [[ChromeDriver: chrome on XP (4667046a957e1e6a94b9d07f09cacc93)] -> css selector: button[name=btnG]]]
+14:13:11.168 INFO - Executing: [find element: By.cssSelector: ._Rm b])
+14:13:11.191 INFO - Done: [find element: By.cssSelector: ._Rm b]
+14:13:11.194 INFO - Executing: [get text: 3 [[ChromeDriver: chrome on XP (4667046a957e1e6a94b9d07f09cacc93)] -> css selector: ._Rm b]])
+14:13:11.221 INFO - Done: [get text: 3 [[ChromeDriver: chrome on XP (4667046a957e1e6a94b9d07f09cacc93)] -> css selector: ._Rm b]]
+14:13:11.226 INFO - Executing: [delete session: 63164514-9c7b-4dea-858f-095f1c3dbe4f])
+14:13:12.214 INFO - Done: [delete session: 63164514-9c7b-4dea-858f-095f1c3dbe4f]
